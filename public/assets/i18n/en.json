@@ -50,5 +50,12 @@
     "SIAMESE": "Siamese",
     "MAINE": "Maine",
     "BENGAL":"Bengal"
+  },
+
+
+  "TOAST": {
+    "ICON": "Fire icon",
+    "MESSAGE": "No results found for this search!",
+    "CLOSE": "Close"
   }
 }

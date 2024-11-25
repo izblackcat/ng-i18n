@@ -1,11 +1,13 @@
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { ToastComponent } from "../toast/toast.component";
+import { SearchService } from '../search.service';
 
 @Component({
   selector: 'app-search',
   standalone: true,
-  imports: [TranslateModule, ReactiveFormsModule],
+  imports: [TranslateModule, ReactiveFormsModule, ToastComponent],
   templateUrl: './search.component.html',
   styleUrl: './search.component.css'
 })
@@ -16,7 +18,11 @@ export class SearchComponent {
 
   isSearchDropDownShown = false;
 
+  isToastShown = computed<boolean>(() => this.searchService.toast());
+
   translate: TranslateService = inject(TranslateService);
+
+  constructor(private searchService: SearchService) {}
 
   useLanguage(language: string) {
     this.translate.use(language);
@@ -28,7 +34,7 @@ export class SearchComponent {
   }
 
   onSearch() {
-    console.log(`Searching for ${this.searchQuery.value} in ${this.searchCategory}`);
+    this.searchService.setToast(true);
   }
 
   toggleSearchDropDown() {

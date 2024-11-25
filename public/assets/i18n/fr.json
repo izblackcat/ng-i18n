@@ -47,5 +47,11 @@
     "SIAMESE": "Siamois",
     "MAINE": "Maine Coon",
     "BENGAL": "Bengal"
+  },
+
+  "TOAST": {
+    "ICON": "Icône de feu",
+    "MESSAGE": "Aucun résultat trouvé pour cette recherche !",
+    "CLOSE": "Fermer"
   }
 }

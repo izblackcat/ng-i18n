@@ -13,11 +13,31 @@ export class NavbarComponent {
 
   isLanguageDropDownShown = false;
   isMenuShown = false;
+  currentLanguage: string = 'العربية';
+
+
 
   translate: TranslateService = inject(TranslateService);
 
   useLanguage(language: string) {
     this.translate.use(language);
+    switch (language) {
+      case 'ar':
+        this.currentLanguage = 'العربية';
+        break;
+      case 'fr':
+        this.currentLanguage = 'Français';
+        break;
+      case 'ch':
+        this.currentLanguage = '中文';
+        break;
+      case 'en':
+        this.currentLanguage = 'English';
+        break;
+      default:
+        break;
+    }
     this.isLanguageDropDownShown = false;
+
   }
 }
