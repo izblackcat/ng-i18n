@@ -1,0 +1,51 @@
+{
+  "NAV": {
+    "HOME": "Accueil",
+    "PROFILE": "Profil",
+    "TIMELINE": "Chronologie",
+    "SEARCH": "Rechercher",
+    "ABOUT": "À propos",
+    "ARABIC": "Arabe",
+    "ENGLISH": "Anglais",
+    "FRENCH": "Français",
+    "CHINEESE": "Chinois"
+  },
+  "TIMELINE": {
+    "EXPERIENCE1": {
+      "TITLE": "Diplômé de l'École des Arts Meow",
+      "DATE": "18 juillet 2000",
+      "PLACE": "Zootopia"
+    },
+    "EXPERIENCE2": {
+      "TITLE": "Meower junior chez XOKOeng",
+      "DATE": "5 octobre 2004",
+      "PLACE": "Cat York"
+    },
+    "EXPERIENCE3": {
+      "TITLE": "Ingénieur Meow senior chez Catt",
+      "DATE": "17 juillet 2009",
+      "PLACE": "Scattle"
+    }
+  },
+  "HOME": {
+    "HEADER1": "La vie est belle",
+    "HEADER2": "avec les chats",
+    "PAR1": "Le lien entre les humains et les chats est une histoire aussi vieille que le temps, remplie de chaleur, de mystère et d'une touche de malice. Qu'ils soient perchés élégamment sur un rebord de fenêtre, profitant du soleil ou jouant avec un ruban flottant, les chats apportent de la joie à chaque instant. Ils nous enseignent l'art de la curiosité et la valeur d'une sieste bien méritée, nous rappelant de savourer les plaisirs simples de la vie.",
+    "PAR2": "Chaque chat a sa propre histoire unique à raconter, du ronronnement doux qui apaise une nuit agitée aux facéties espiègles qui apportent des rires à nos journées. Ces compagnons félins sont bien plus que des animaux de compagnie : ce sont des confidents, des amuseurs et des amis fidèles. Leur esprit joueur et leur sagesse tranquille enrichissent nos vies d'une manière que les mots ne peuvent guère capturer, rendant chaque jour un peu plus lumineux et chaque défi un peu plus léger.",
+    "BUTTON": "Lire la suite"
+  },
+  "PROFILE": {
+    "TEXT": "Les chats ne sont pas seulement des animaux de compagnie ; ce sont de petites énigmes gracieuses qui remplissent nos cœurs d'émerveillement et nos maisons de magie silencieuse.",
+    "AUTH": "Leila",
+    "COMPANY": "Catty"
+  },
+  "SEARCH": {
+    "ALLCATEGORIES": "Toutes les catégories",
+    "PLACEHOLDER": "Recherchez un chat Persan, Siamois, Maine Coon, Bengal...",
+    "SEARCHBTN": "Rechercher",
+    "PERSIAN": "Persan",
+    "SIAMESE": "Siamois",
+    "MAINE": "Maine Coon",
+    "BENGAL": "Bengal"
+  }
+}

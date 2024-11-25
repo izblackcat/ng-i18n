@@ -1,0 +1,54 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "PROFILE": "Profile",
+    "TIMELINE": "Timeline",
+    "SEARCH": "Search",
+    "ABOUT": "About",
+    "ARABIC": "Arabic",
+    "ENGLISH": "English",
+    "FRENCH": "French",
+    "CHINEESE": "Chineese"
+  },
+  "TIMELINE": {
+    "EXPERIENCE1": {
+      "TITLE": "Graduated from the Meow School of Arts",
+      "DATE": "July, 18 2000",
+      "PLACE": "Zootopia"
+    },
+    "EXPERIENCE2": {
+      "TITLE": "Junior Meower at XOKOeng",
+      "DATE": "October, 05 2004",
+      "PLACE": "Cat york"
+    },
+    "EXPERIENCE3": {
+      "TITLE": "Senior Meow Engineer at Catt",
+      "DATE": "July, 17 2009",
+      "PLACE": "Scattle"
+    }
+  },
+
+  "HOME": {
+    "HEADER1": "Life is Great",
+    "HEADER2": "with cats",
+    "PAR1": "The bond between humans and cats is a tale as old as time, filled with warmth, mystery, and a dash of mischief. Whether they’re perched elegantly on a windowsill, basking in the sun, or darting playfully after a fluttering ribbon, cats bring joy to every moment. They teach us the art of curiosity and the value of a well-earned nap, reminding us to savor the simple pleasures in life",
+    "PAR2": "Each cat has its own unique story to tell, from the gentle purring that soothes a restless night to the mischievous antics that bring laughter into our days. These feline companions are more than pets—they are confidants, entertainers, and steadfast friends. Their playful spirit and quiet wisdom enrich our lives in ways words can scarcely capture, making each day a little brighter and every challenge a bit lighter.",
+    "BUTTON": "Read more"
+  },
+
+  "PROFILE": {
+    "TEXT": "Cats are not just pets; they are tiny, graceful enigmas that fill our hearts with wonder and our homes with quiet magic.",
+    "AUTH": "Leila",
+    "COMPANY": "Catty"
+  },
+
+  "SEARCH": {
+    "ALLCATEGORIES": "All Categories",
+    "PLACEHOLDER":"Search Persian, Siamese, Maine, Bengal...",
+    "SEARCHBTN": "Search",
+    "PERSIAN":"Persian",
+    "SIAMESE": "Siamese",
+    "MAINE": "Maine",
+    "BENGAL":"Bengal"
+  }
+}
