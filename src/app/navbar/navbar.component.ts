@@ -15,8 +15,6 @@ export class NavbarComponent {
   isMenuShown = false;
   currentLanguage: string = 'العربية';
 
-
-
   translate: TranslateService = inject(TranslateService);
 
   useLanguage(language: string) {
@@ -38,6 +36,5 @@ export class NavbarComponent {
         break;
     }
     this.isLanguageDropDownShown = false;
-
   }
 }

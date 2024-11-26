@@ -15,10 +15,6 @@ export class ToastComponent {
 
   constructor(private searchService: SearchService) {}
 
-  useLanguage(language: string) {
-    this.translate.use(language);
-  }
-
   onDismissToast() {
     this.searchService.setToast(false);
   }

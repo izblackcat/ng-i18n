@@ -11,8 +11,4 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 export class ProfileComponent {
 
   translate: TranslateService = inject(TranslateService);
-
-  useLanguage(language: string) {
-    this.translate.use(language);
-  }
 }

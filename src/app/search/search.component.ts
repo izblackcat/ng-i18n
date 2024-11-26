@@ -1,5 +1,5 @@
-import { Component, computed, inject, signal } from '@angular/core';
-import { FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Component, computed, inject } from '@angular/core';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { ToastComponent } from "../toast/toast.component";
 import { SearchService } from '../search.service';
@@ -15,7 +15,6 @@ export class SearchComponent {
 
   searchQuery = new FormControl('');
   searchCategory : string = '';
-
   isSearchDropDownShown = false;
 
   isToastShown = computed<boolean>(() => this.searchService.toast());
@@ -23,10 +22,6 @@ export class SearchComponent {
   translate: TranslateService = inject(TranslateService);
 
   constructor(private searchService: SearchService) {}
-
-  useLanguage(language: string) {
-    this.translate.use(language);
-  }
 
   onChooseCategory(category : string) {
     this.searchCategory = category;

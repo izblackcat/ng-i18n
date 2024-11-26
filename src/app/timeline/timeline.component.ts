@@ -12,10 +12,4 @@ export class TimelineComponent {
 
   translate: TranslateService = inject(TranslateService);
 
-
-  useLanguage(language: string) {
-    this.translate.use(language);
-  }
-
-
 }
