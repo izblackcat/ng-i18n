@@ -173,3 +173,7 @@ In this app, we use the following languages:
     ```
 
 8.  Now, you are done :blush: !
+
+## More
+
+For more details, consider reading the [ngx-translate](https://github.com/ngx-translate/core) docs.
