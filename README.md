@@ -61,15 +61,14 @@ In this app, we use the following languages:
     //...
     ```
 
-4.  Now, your are almost done! In your components that contain text your want to internalize, you need two things:
+4.  Now, your are almost done! In your components that contain text your want to internalize, you need to:
 
     - Import `TranslateModule` and add it to your `imports` array:
-    - Import and `inject` the `Translate Service` :
 
     ```ts
-    import { Component, inject } from "@angular/core";
+    import { Component } from "@angular/core";
 
-    import { TranslateModule, TranslateService } from "@ngx-translate/core";
+    import { TranslateModule } from "@ngx-translate/core";
 
     @Component({
       selector: "app-home",
@@ -79,7 +78,7 @@ In this app, we use the following languages:
       styleUrl: "./home.component.css",
     })
     export class HomeComponent {
-      translate: TranslateService = inject(TranslateService);
+      //...
     }
     ```
 
@@ -152,7 +151,7 @@ In this app, we use the following languages:
     <!-- ... -->
     ```
 
-    This ensures, that when the language changes, the field gets translated to the choosen language.
+    This ensures, that when the language changes, the field gets translated to the choosen language using the `translate` pipe.
 
     > `Arabic` is written from Right to Left, that's why we do that check.
 
